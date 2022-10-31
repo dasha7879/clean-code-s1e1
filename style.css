@@ -23,7 +23,7 @@ input,button{
 .information img {
   width: 100%;
 }
-.information .information-details {
+.information .information__details {
   font-family: fantasy, cursive;
 }
 
@@ -42,7 +42,7 @@ input,button{
   display: inline-block;
   flex-grow: 1
 }
-.main-wrapper {
+.text__wrapper {
   display: flex;
 }
 button {
