@@ -20,10 +20,10 @@ input,button{
   display: block;
   text-align: right;
 }
-.information img {
+.information__img {
   width: 100%;
 }
-.information .information__details {
+.information__details {
   font-family: fantasy, cursive;
 }
 
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-button.button button__delete img {
+.img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.button button__delete img:hover {
+.img:hover {
   transform: rotateZ(0);
 }
 
